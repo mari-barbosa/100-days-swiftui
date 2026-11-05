@@ -4,7 +4,7 @@
 
 - Inicialização de um Array:
 
-``` Swift
+```swift
 var beatles = ["John", "Paul", "George", "Ringo"]  // Array de Strings
 let numbers = [4, 8, 15, 16, 23, 42]               // Array de Ints
 var temperatures = [25.3, 28.2, 26.4]              // Array de Doubles
@@ -12,7 +12,7 @@ var temperatures = [25.3, 28.2, 26.4]              // Array de Doubles
 
 - Declaração de um Array especializado:
 
-```Swift
+```swift
 var scores = Array<Int>()
 var albums = [String]()
 ```
@@ -33,7 +33,7 @@ var albums = [String]()
 
 - Inicialização de um Dicionário:
 
-```Swift
+```swift
 let employee = [
     "name": "Taylor Swift",
     "job": "Singer", 
@@ -43,7 +43,7 @@ let employee = [
 
 - Declaração de um Dicionário especializado:
 
-```Swift
+```swift
 var heights = [String: Int]()
 ```
 
@@ -59,13 +59,13 @@ var heights = [String: Int]()
 
 - Inicialização de um Set:
 
-```Swift
+```swift
 let people = Set(["Denzel Washington", "Tom Cruise", "Nicolas Cage", "Samuel L Jackson"])
 ```
 
 - Inicialização de um Set especializado:
 
-```Swift
+```swift
 var people = Set<String>()
 ```
 
@@ -85,7 +85,7 @@ var people = Set<String>()
 
 - Inicialização de um Enum dos dias da semana:
 
-```Swift
+```swift
 enum Weekday {
     case monday
     case tuesday
