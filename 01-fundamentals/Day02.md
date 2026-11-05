@@ -5,7 +5,7 @@
 
 - Booleanos devem sempre ser declarados com um valor inicial (declaração e inicialização ao mesmo tempo):
 
-```Swift
+```swift
 let goodDogs = true
 let gameOver = false
 let isMultiple = 120.isMultiple(of: 3)
@@ -14,14 +14,14 @@ let isMultiple = 120.isMultiple(of: 3)
 
 - Operador de negação `! ` : inverte o valor do booleano.
 
-``` Swift
+```swift
 var isAuthenticated = false
 isAuthenticated = !isAuthenticated
 ```
 
 - Método mutante `.toggle( )`: também funciona invertendo o valor de um booleano, melhorando a sintaxe e legibilidade do código .
 
-``` Swift
+```swift
 var gameOver = false  //retorna false
 gameOver.toggle()    //retorna true
 ```
@@ -31,7 +31,7 @@ gameOver.toggle()    //retorna true
 
 - União de Strings, Int, Doubles e Bools usando o caractere de escape:
 
-``` Swift
+```swift
 let name = "Taylor"
 let age = 26
 let message = "Hello, my name is \(name) and I'm \(age) years old."
