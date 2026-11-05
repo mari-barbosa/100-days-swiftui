@@ -4,13 +4,13 @@
 
 - Inicialização de uma variável (mutável, com o valor pondendo ser reatribuído):
 
-```Swift
+```swift
 var hello = "Olá, Mundo!"
 ```
 
 - Inicialização de uma constante (atribuido uma vez, congelado pelo compilador):
 
-```Swift
+```swift
 let cat = "Preta!"
 ```
 
@@ -22,7 +22,7 @@ let cat = "Preta!"
 
 - Em Swift, Strings aceitam, além de caracteres comuns, pontuação e emojis:
 
-```Swift
+```swift
 let actor = "Denzel Washington"
 let filename = "paris.jpg"
 let result = "⭐️ You win! ⭐️"
@@ -30,13 +30,13 @@ let result = "⭐️ You win! ⭐️"
 
 - Caractere de escape => `\"`
 
-```Swift
+```swift
 let quote = "Then he tapped a sign saying \"Believe\" and walked away."
 ```
 
 - Inicialização de uma String de múltipas linhas:
 
-```Swift
+```swift
 let movie = """
 A day in
 the life of an
@@ -49,19 +49,19 @@ Apple engineer
 
 - Inicialização de uma Constante com números inteiros:
 
-```Swift
+```swift
 let score = 10
 ```
 
 - Para números grandes, pode-se usar `_ `na quantidade desejada (o compilador ignora esses caracteres):
 
-```Swift
+```swift
 let reallyBig = 100_000_000
 ```
 
 - Operadores aritméticos:
 
-```Swift
+```swift
 let lowerScore = score - 2         // Subtração ( -= )
 let higherScore = score + 1        // Adição ( += )
 let doubledScore = score * 2       // Multiplicação ( *= )
@@ -74,7 +74,7 @@ let halvedScore = score / 2        // Divisão ( /= )
 
 - Inicialização de Constantes com números de ponto flutuante:
 
-```Swift
+```swift
 let double1 = 3.1
 let double2 = 3131.3131
 let double3 = 3.0
@@ -90,7 +90,7 @@ let double3 = 3.0
 
 - `print( )` => imprime algo na tela.
 
-```Swift
+```swift
 print(cat)
 ```
 
@@ -100,7 +100,7 @@ print(cat)
 
 - `.count` => retorna o número de elementos ou caracteres em uma coleção ou sequência. Complexidade O(n).
 
-```Swift
+```swift
 print(actor.count)
 ```
 
@@ -110,25 +110,25 @@ print(actor.count)
 
 - `.uppercased( )` => retorna uma nova instância com todas as letras em caixa alta, sem modificar a instância original. Complexidade O(n).
 
-```Swift
+```swift
 print(result.uppercased())
 ```
 
 - `hasPrefix ( )` => verifica se uma String começa com o prefixo indicado e retorna um booleano.
 
-```Swift
+```swift
 print(movie.hasPrefix("A day"))
 ```
 
 - `hasSufix ( )` => verifica se uma String termina com o sufixo indicado e retorna um booleano.
 
-```Swift
+```swift
 print(filename.hasSuffix(".jpg"))
 ```
 
 - `isMultiple(of:)` => verifica se um número inteiro é múltiplo de outro número inteiro e retorna um booleano.
 
-```Swift
+```swift
 let number = 120
 print(number.isMultiple(of: 3))
 ```
